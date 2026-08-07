@@ -1,314 +1,220 @@
-:root {
-  color-scheme: dark;
-  --bg: #0f172a;
-  --bg-alt: #111c36;
-  --surface: #16233e;
-  --text: #f8fafc;
-  --muted: #cbd5e1;
-  --accent: #38bdf8;
-  --accent-strong: #0ea5e9;
-  --border: rgba(148, 163, 184, 0.2);
-  --shadow: 0 20px 45px rgba(2, 8, 23, 0.28);
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Enmaria Solorzano, QA Lead and software testing consultant with 30+ years of experience."
+    />
+    <title>Enmaria Solorzano | QA Lead & Testing Consultant</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top">Enmaria Solorzano</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" id="site-nav">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
 
-* {
-  box-sizing: border-box;
-}
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">QA Lead • Software Testing Consultant</p>
+            <h1>Building dependable software through disciplined quality and leadership.</h1>
+            <p class="lead">
+              I bring over 30 years of experience in software consulting, development, and testing,
+              with a strong focus on QA strategy, agile delivery, automation, and mentoring teams.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#experience">View experience</a>
+              <a class="button secondary" href="#contact">Get in touch</a>
+            </div>
+            <ul class="hero-highlights">
+              <li>Lead QA and agile coaching across remote and distributed teams</li>
+              <li>Experience with ALM, Azure DevOps, Postman, APIs, and web services</li>
+              <li>Conversational English (B2) and strong stakeholder collaboration</li>
+            </ul>
+          </div>
 
-html {
-  scroll-behavior: smooth;
-}
+          <aside class="hero-card">
+            <h2>At a glance</h2>
+            <ul>
+              <li>Caracas, Venezuela</li>
+              <li>enmarias@hotmail.com</li>
+              <li>+58-4122930717</li>
+              <li>Currently supporting QA and agile enablement initiatives</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
 
-body {
-  margin: 0;
-  font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
-  background: linear-gradient(135deg, var(--bg) 0%, #111827 100%);
-  color: var(--text);
-  line-height: 1.7;
-}
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About me</p>
+            <h2>Quality-first professional with a long track record in complex delivery environments.</h2>
+          </div>
+          <div class="about-grid">
+            <article class="card">
+              <h3>Professional profile</h3>
+              <p>
+                Enmaria Solorzano is a seasoned QA leader who has guided testing, quality governance,
+                and agile adoption for banking, insurance, telecommunications, and enterprise software
+                projects. Her experience spans functional, regression, API, web services, and team management.
+              </p>
+            </article>
+            <article class="card highlight-card">
+              <h3>Highlights</h3>
+              <ul>
+                <li>30+ years in software consulting, development, and testing</li>
+                <li>Leadership roles in QA, quality assurance, and team mentoring</li>
+                <li>Strong background in planning, test design, metrics, estimations, and process improvement</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+      <section class="section section-alt" id="experience">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Experience</p>
+            <h2>Career timeline</h2>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <p class="timeline-date">Jun 2025 – Present</p>
+                <h3>QA Sr – Instructor QA</h3>
+                <p class="timeline-company">Vzla Remoto · Autonomous</p>
+                <p>Training IT staff on agile processes, Scrum ceremonies, and QA practices for new teams.</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <p class="timeline-date">Sep 2025 – Jun 2026</p>
+                <h3>QA</h3>
+                <p class="timeline-company">Latam Servicios Tech</p>
+                <p>Delivered testing for online banking projects and managed encryption and QA-related validations.</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <p class="timeline-date">Apr 2024 – Feb 2025</p>
+                <h3>Advisory Agile Lead & QA Leader</h3>
+                <p class="timeline-company">Estar Seguros</p>
+                <p>Led daily Scrums for multiple teams, organized agile events, and ensured quality standards across delivered requirements.</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <p class="timeline-date">Dec 2020 – Dec 2023</p>
+                <h3>Senior QA</h3>
+                <p class="timeline-company">Arroyo Consulting</p>
+                <p>Managed QA teams and quality planning for web applications, while coordinating with teams in the US, Ukraine, and India.</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <p class="timeline-date">Jun 2019 – Aug 2020</p>
+                <h3>QA Leader</h3>
+                <p class="timeline-company">Factica S.A.S / Lexica</p>
+                <p>Directed QA operations, sprint planning, task definition, bug lifecycle management, and test design for client-facing work.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
 
-img {
-  max-width: 100%;
-}
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Skills</p>
+            <h2>Testing leadership, agile delivery, and technical depth.</h2>
+          </div>
+          <div class="skills-grid">
+            <article class="card skill-card">
+              <h3>Testing & QA</h3>
+              <ul>
+                <li>Unit, integration, regression, functional, and certified testing</li>
+                <li>Web services and API testing with Postman</li>
+                <li>Test planning, metrics, estimations, and defect management</li>
+              </ul>
+            </article>
+            <article class="card skill-card">
+              <h3>Tools & Platforms</h3>
+              <ul>
+                <li>ALM</li>
+                <li>Azure DevOps</li>
+                <li>Team Foundation Server</li>
+                <li>HP Quality Center / QTP</li>
+              </ul>
+            </article>
+            <article class="card skill-card">
+              <h3>Databases & Development</h3>
+              <ul>
+                <li>SQL Server</li>
+                <li>Oracle</li>
+                <li>Db2</li>
+                <li>Informix</li>
+                <li>C# and .NET experience</li>
+              </ul>
+            </article>
+            <article class="card skill-card">
+              <h3>Leadership & Soft Skills</h3>
+              <ul>
+                <li>Agile coaching and team formation</li>
+                <li>Leadership and analytical thinking</li>
+                <li>Communication and remote collaboration</li>
+                <li>English B2</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
 
-.container {
-  width: min(1120px, calc(100% - 2rem));
-  margin: 0 auto;
-}
+      <section class="section section-cta" id="contact">
+        <div class="container">
+          <article class="cta-card">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build quality into every release.</h2>
+            <p>
+              Whether you need QA leadership, test strategy, mentoring, or a hands-on testing consultant,
+              I would be glad to connect.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="mailto:enmarias@hotmail.com">Email Enmaria</a>
+              <a class="button secondary" href="tel:+584122930717">Call now</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
 
-.site-header {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  background: rgba(15, 23, 42, 0.92);
-  backdrop-filter: blur(14px);
-  border-bottom: 1px solid var(--border);
-}
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Enmaria Solorzano. All rights reserved.</p>
+      </div>
+    </footer>
 
-.nav-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  min-height: 72px;
-}
-
-.brand {
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--accent);
-}
-
-.site-nav {
-  display: flex;
-  gap: 1.25rem;
-}
-
-.site-nav a {
-  color: var(--muted);
-  transition: color 180ms ease;
-}
-
-.site-nav a:hover,
-.site-nav a:focus-visible {
-  color: var(--accent);
-}
-
-.menu-toggle {
-  display: none;
-  flex-direction: column;
-  gap: 5px;
-  border: 0;
-  background: transparent;
-  padding: 0.3rem;
-}
-
-.menu-toggle span {
-  width: 24px;
-  height: 2px;
-  background: var(--text);
-  display: block;
-}
-
-.hero {
-  padding: 5rem 0 4rem;
-}
-
-.hero-grid {
-  display: grid;
-  grid-template-columns: 1.3fr 0.7fr;
-  gap: 2rem;
-  align-items: center;
-}
-
-.eyebrow {
-  display: inline-block;
-  margin: 0 0 0.75rem;
-  color: var(--accent);
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  font-size: 0.8rem;
-  font-weight: 700;
-}
-
-h1,
-h2,
-h3 {
-  line-height: 1.2;
-  margin: 0 0 0.8rem;
-}
-
-h1 {
-  font-size: clamp(2rem, 4vw, 3.3rem);
-  max-width: 760px;
-}
-
-h2 {
-  font-size: clamp(1.4rem, 3vw, 2rem);
-}
-
-.lead,
-.card p,
-.timeline-content p,
-.cta-card p {
-  color: var(--muted);
-}
-
-.hero-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.9rem;
-  margin: 1.5rem 0;
-}
-
-.button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.8rem 1.15rem;
-  border-radius: 999px;
-  font-weight: 600;
-  transition: transform 180ms ease, background 180ms ease, color 180ms ease;
-}
-
-.button:hover,
-.button:focus-visible {
-  transform: translateY(-2px);
-}
-
-.button.primary {
-  background: var(--accent);
-  color: var(--bg);
-}
-
-.button.primary:hover,
-.button.primary:focus-visible {
-  background: var(--accent-strong);
-}
-
-.button.secondary {
-  border: 1px solid var(--border);
-  color: var(--text);
-}
-
-.hero-highlights {
-  padding-left: 1rem;
-  color: var(--muted);
-}
-
-.hero-card,
-.card,
-.timeline-item,
-.cta-card {
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid var(--border);
-  border-radius: 1.25rem;
-  box-shadow: var(--shadow);
-}
-
-.hero-card {
-  padding: 1.5rem;
-}
-
-.hero-card ul,
-.card ul {
-  padding-left: 1rem;
-  color: var(--muted);
-}
-
-.section {
-  padding: 4rem 0;
-}
-
-.section-alt {
-  background: rgba(255, 255, 255, 0.025);
-}
-
-.section-heading {
-  margin-bottom: 1.6rem;
-}
-
-.about-grid,
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.25rem;
-}
-
-.card,
-.cta-card {
-  padding: 1.4rem;
-}
-
-.highlight-card {
-  background: linear-gradient(135deg, rgba(56, 189, 248, 0.18), rgba(56, 189, 248, 0.06));
-}
-
-.timeline {
-  display: grid;
-  gap: 1rem;
-}
-
-.timeline-item {
-  display: grid;
-  grid-template-columns: 0.5rem 1fr;
-  gap: 1rem;
-  padding: 1.2rem 1.3rem;
-}
-
-.timeline-marker {
-  width: 0.6rem;
-  height: 0.6rem;
-  border-radius: 999px;
-  background: var(--accent);
-  margin-top: 0.5rem;
-}
-
-.timeline-date {
-  color: var(--accent);
-  font-weight: 600;
-  margin-bottom: 0.45rem;
-}
-
-.timeline-company {
-  color: #f8fafc;
-  margin-bottom: 0.4rem;
-  font-weight: 600;
-}
-
-.section-cta {
-  padding-bottom: 5rem;
-}
-
-.cta-card {
-  text-align: center;
-}
-
-.site-footer {
-  border-top: 1px solid var(--border);
-  padding: 1.3rem 0 2rem;
-  color: var(--muted);
-}
-
-.footer-wrap {
-  display: flex;
-  justify-content: center;
-}
-
-@media (max-width: 780px) {
-  .menu-toggle {
-    display: inline-flex;
-  }
-
-  .site-nav {
-    display: none;
-    position: absolute;
-    top: 72px;
-    left: 1rem;
-    right: 1rem;
-    flex-direction: column;
-    padding: 1rem;
-    background: rgba(15, 23, 42, 0.96);
-    border: 1px solid var(--border);
-    border-radius: 1rem;
-  }
-
-  .site-nav.open {
-    display: flex;
-  }
-
-  .hero-grid,
-  .about-grid,
-  .skills-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .hero {
-    padding-top: 3rem;
-  }
-}
+    <script src="main.js"></script>
+  </body>
+</html>
